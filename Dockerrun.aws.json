@@ -1,0 +1,14 @@
+{
+  "AWSEBDockerrunVersion" : "1",
+  "Image" : {
+    "Name" : "luka73/api_pedidos",
+    "Update" : "true"
+  },
+  "Ports" : [
+    {
+      "ContainerPort" : 8084,
+      "HostPort" : 8084
+    }
+  ]
+
+}
